@@ -1,0 +1,57 @@
+body{
+        background: url('../IMG/fondo1.jpg') no-repeat center center fixed;
+        background-size: cover;
+}
+/* Estilos para el encabezado */
+header {
+    background-color: #07113cab;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para los recuadros de imágenes */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-box {
+    width: 30%; /* Ancho de cada caja de imagen */
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(0, 1, 1, 0.298); /* Fondo semitransparente */
+    border: 1px solid #333;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.image-box:hover{
+    transform: scale(1.05);
+}
+.image-box a {
+    display: block;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+
+p{
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
